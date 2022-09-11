@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+#header{
+    background: #0f1c6e;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.group select {
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+.group option{
+    color: black;
+}
+.header a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.group{
+    margin: 0 30px;
+    padding-left: 500px;
+}
+
+#hero{
+    background: url("../img/fon.png") no-repeat center/cover ;
+}
+.hero h1{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 80px;
+    color: #FFFFFF;
+    padding-bottom: 70px;
+}
+
+.hero p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.title h1{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 65px;
+    margin-left: -40px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.circle{
+    color: #FFFFFF;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+}
+
+.mektep h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 13px;
+}
+.mektep p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.boy h1{
+    font-weight: 700;
+    font-size: 14px;
+    color: #252B42;
+}
+.boy p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #1100D9;
+    padding-top: 13px;
+}
+.stolbik-1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.book h1{
+    font-weight: 700;
+    font-size: 14px;
+    color: #252B42;
+}
+.book p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #1100D9;
+    padding-top: 13px;
+}
+.stolbik-2{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.prof h1{
+    font-weight: 700;
+    font-size: 14px;
+    color: #252B42;
+}
+.prof p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #1100D9;
+    padding-top: 13px;
+}
+.stolbik-3{
+    display: flex;
+    align-items: center;
+}
+.school{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.desk p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163.4%;
+    color: #000000;
+    padding-bottom: 50px;
+}
+.desk button{
+    font-weight: 600;
+    font-size: 18px;
+    color: #1100D9;
+
+    padding: 13px 50px;
+    border: 2px solid #1100D9;
+    border-radius: 16px;
+}
+.desk{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.teacher h1{
+    padding: 30px 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 254px;
+    height: 270px;
+}
+
+.swiper-wrapper{
+    padding-bottom: 110px;
+}
+
+.teacher p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.child{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.child img {
+    margin: 10px;
+}
+
+.pupil {
+    width: 398px;
+    height: 240px;
+}
+
+.icon h1{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: 60px;
+}
+.icon p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #252B42;
+    padding-bottom: 50px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#footer{
+    background: url("../img/Vector 2.png") no-repeat center/cover ;
+    padding: 80px 0;
+}
+.footer p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+.bala{
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.cos h1{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.cos a{
+    padding: 0 10px;
+    color: #FFFFFF;
+}
+.cos{
+    padding-top: 50px;
+}
+.fot1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.lini{
+    width: 100%;
+}
+.fot2 h1{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.fot2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.right{
+    display: flex;
+}
+.dev p{
+    font-weight: 700;
+    font-size: 13px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.desk h1{
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.dev{
+    padding-right: 10px;
+}
